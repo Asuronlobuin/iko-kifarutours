@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Iko-Kifaru Tour & Safaris EA Limited</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        /* General styles */
+        body {
+            background: url('https://wallpapers.com/images/hd/safari-pictures-1920-x-1080-dd359t4cr5z1prgp.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: #f0f0f0;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.4;
+            font-size: 16px;
+        }
+
+        /* Header styles */
+        .header-container {
+            padding: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background: rgba(0, 0, 0, 0.7);
+            border-bottom: 1px solid #ffd700;
+        }
+
+        .header-container img {
+            max-width: 80px;
+            height: auto;
+        }
+
+        .header-title {
+            flex-grow: 1;
+            text-align: center;
+        }
+
+        .header-title h1 {
+            color: #ffd700;
+            font-size: 1.2em; /* Reduced from 1.5em */
+            margin: 0;
+        }
+
+        /* Navigation styles */
+        .menu-container {
+            background: rgba(0, 0, 0, 0.7);
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        .menu-container nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .menu-container nav ul li {
+            margin: 5px 10px;
+        }
+
+        .menu-container nav ul li a {
+            color: #ffd700;
+            text-decoration: none;
+            font-size: 1em;
+            padding: 5px 10px;
+            border-radius: 15px;
+            transition: background-color 0.3s ease;
+        }
+
+        .menu-container nav ul li a:hover {
+            background-color: rgba(255, 215, 0, 0.2);
+        }
+
+        /* Content styles */
+        .home-content {
+            background: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            border-radius: 10px;
+            max-width: 90%;
+            margin: 20px auto;
+            text-align: center;
+        }
+
+        h1, h2 {
+            color: #ffd700;
+            margin-bottom: 15px;
+            font-size: 1.1em; /* Reduced from 1.3em */
+        }
+
+        p {
+            margin-bottom: 15px;
+            font-size: 1em;
+            line-height: 1.5;
+        }
+
+        /* Button styles */
+        .explore-button {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 1em;
+            color: #1a1a2e;
+            background-color: #ffd700;
+            border-radius: 25px;
+            text-decoration: none;
+            margin: 15px 0;
+            transition: background-color 0.3s ease;
+            animation: bounce 2s infinite, shine 2s infinite;
+        }
+
+        .explore-button:hover {
+            background-color: #e5c100;
+        }
+
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% {
+                transform: translateY(0);
+            }
+            40% {
+                transform: translateY(-20px);
+            }
+            60% {
+                transform: translateY(-10px);
+            }
+        }
+
+        @keyframes shine {
+            0% {
+                box-shadow: 0 0 5px #ffd700;
+            }
+            50% {
+                box-shadow: 0 0 20px #fff;
+            }
+            100% {
+                box-shadow: 0 0 5px #ffd700;
+            }
+        }
+
+        /* Address info styles */
+        .address-info {
+            margin-top: 30px;
+            padding: 15px;
+            background-color: rgba(0, 0, 0, 0.5);
+            border-radius: 10px;
+        }
+
+        .address-info h2 {
+            color: #ffd700;
+            font-size: 1.1em; /* Reduced from 1.2em */
+            margin-bottom: 10px;
+        }
+
+        .address-info p {
+            margin: 5px 0;
+        }
+
+        /* Social media styles */
+        .social-media {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .social-media a {
+            margin: 0 15px;
+            color: #ffd700;
+            font-size: 2em;
+            transition: color 0.3s ease;
+        }
+
+        .social-media a:hover {
+            color: #fff;
+        }
+
+        /* Responsive design adjustments */
+        @media (max-width: 600px) {
+            body {
+                font-size: 14px;
+            }
+
+            .header-container {
+                flex-direction: column;
+                padding: 10px 5px;
+            }
+
+            .header-title h1 {
+                font-size: 1.1em; /* Reduced from 1.3em */
+                margin-top: 5px;
+            }
+
+            .menu-container nav ul {
+                flex-direction: column;
+            }
+
+            .menu-container nav ul li {
+                margin: 5px 0;
+            }
+
+            .home-content {
+                padding: 15px;
+                margin: 15px auto;
+            }
+
+            .explore-button {
+                padding: 8px 16px;
+                font-size: 0.9em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="header-container">
+        <img src="gallary/images/logo.png" alt="Iko-Kifaru Tour & Safaris Logo">
+        <div class="header-title">
+            <h1>Iko-Kifaru Tour & Safaris</h1>
+        </div>
+    </header>
+    <div class="menu-container">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="tours.html">Tours & Services</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </div>
+    <section class="home-content">
+        <h1>Welcome to Iko-Kifaru Tour & Safaris</h1>
+        <p>Your adventure begins here! Explore our exciting tours and exceptional services tailored to make your trip unforgettable.</p>
+        <p>We specialize in vacation planning, booking, packaging, and organizing all aspects of your trip. From hotel accommodations, transportation, meals, guides, tours, and flights, we ensure a seamless and enjoyable experience. Let us handle the details while you enjoy your dream vacation.</p>
+        <a href="tours.html" class="explore-button">Explore Now</a>
+        
+        <div class="address-info">
+            <h2>Our Office</h2>
+            <p>Haile Selassie Avenue<br>
+            Ngumu House, 2nd Floor 1A<br>
+            Mombasa, Kenya</p>
+            <p>Phone: +254 706 639725</p>
+        </div>
+
+        <div class="social-media">
+            <a href="https://www.facebook.com/profile.php?id=61562713145883&mibextid=ZbWKwL" target="_blank" title="Facebook">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="https://www.tiktok.com/@ikokifarutourandsafaris?_t=8oRvw2RmLmX&_r=1" target="_blank" title="TikTok">
+                <i class="fab fa-tiktok"></i>
+            </a>
+        </div>
+    </section>
+</body>
+</html>

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Iko-Kifaru Tour & Safaris EA Limited</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            background: url('https://wallpapers.com/images/hd/safari-pictures-1920-x-1080-ong2rrbu09whf0a5.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: white;
+            font-size: 14px;
+        }
+        .header-container {
+            padding: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background: rgba(0, 0, 0, 0.7);
+            border-bottom: 2px solid #ffd700;
+        }
+        .header-container img {
+            max-width: 80px;
+            height: auto;
+        }
+        .header-title {
+            flex-grow: 1;
+            text-align: center;
+        }
+        .header-title h1 {
+            color: #ffd700;
+            font-size: 1.5em;
+            margin: 0;
+        }
+        .menu-container {
+            background: rgba(0, 0, 0, 0.7);
+            border-bottom: 2px solid #ffd700;
+            text-align: center;
+        }
+        .menu-container nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+        .menu-container nav ul li {
+            margin: 0 10px;
+        }
+        .menu-container nav ul li a {
+            color: #ffd700;
+            text-decoration: none;
+            font-size: 1em;
+            padding: 8px 12px;
+            border-radius: 5px;
+            transition: background 0.3s ease;
+        }
+        .menu-container nav ul li a:hover {
+            background: rgba(255, 215, 0, 0.3);
+            color: #1a1a2e;
+        }
+        .about-content {
+            background: rgba(0, 0, 0, 0.6);
+            padding: 15px;
+            border-radius: 10px;
+            position: relative;
+            max-width: 700px;
+            margin: 15px auto;
+            text-align: center;
+        }
+        h1, h2 {
+            color: #ffd700;
+            font-size: 1.8em;
+        }
+        .book-now-button {
+            background-color: #ffd700;
+            color: #1a1a2e;
+            padding: 8px 16px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1em;
+            margin-top: 15px;
+            display: inline-block;
+            animation: bounce 2s infinite;
+        }
+        .book-now-button:hover {
+            background-color: #cca700;
+        }
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% {
+                transform: translateY(0);
+            }
+            40% {
+                transform: translateY(-15px);
+            }
+            60% {
+                transform: translateY(-7px);
+            }
+        }
+        @media (max-width: 768px) {
+            .about-content {
+                padding: 8px;
+            }
+            .book-now-button {
+                font-size: 0.9em;
+                padding: 6px 12px;
+            }
+        }
+        /* Social Media Icons Styling */
+        .social-media {
+            margin-top: 20px;
+        }
+        .social-media a {
+            color: white;
+            font-size: 24px;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+        .social-media a:hover {
+            color: #ffd700;
+        }
+        .social-media i {
+            vertical-align: middle;
+        }
+    </style>
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header class="header-container">
+        <img src="gallary/images/logo.png" alt="Iko-Kifaru Tour & Safaris Logo">
+        <div class="header-title">
+            <h1>Iko-Kifaru Tour & Safaris</h1>
+        </div>
+    </header>
+    <div class="menu-container">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="tours.html">Tours & Services</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </div>
+    <section class="about-content">
+        <h1>About Us</h1>
+        <p>Welcome to Iko-Kifaru Tour & Safaris EA Limited. We specialize in providing exceptional tour experiences in Kenya, from thrilling safaris to relaxing beach holidays. Our dedicated team is committed to ensuring you have an unforgettable journey.</p>
+        <a href="contact.html" class="book-now-button">Book Now</a>
+        <div class="social-media">
+            <a href="https://www.facebook.com/profile.php?id=61562713145883&mibextid=ZbWKwL" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.tiktok.com/@ikokifarutourandsafaris?" target="_blank"><i class="fab fa-tiktok"></i></a>
+        </div>
+    </section>
+</body>
+</html>

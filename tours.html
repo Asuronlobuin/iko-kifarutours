@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tours & Services - Iko-Kifaru Tour & Safaris EA Limited</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Include Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            background: url('https://images.pexels.com/photos/624063/pexels-photo-624063.jpeg?cs=srgb&dl=pexels-frans-van-heerden-201846-624063.jpg&fm=jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: white;
+        }
+        .header-container {
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background: rgba(0, 0, 0, 0.7);
+            border-bottom: 2px solid #ffd700;
+        }
+        .header-container img {
+            max-width: 120px;
+            height: auto;
+        }
+        .header-title {
+            flex-grow: 1;
+            text-align: center;
+        }
+        .header-title h1 {
+            color: #ffd700;
+            font-size: 1.5em; /* Reduced from 2em */
+            margin: 0;
+        }
+        .menu-container {
+            background: rgba(0, 0, 0, 0.7);
+            border-bottom: 2px solid #ffd700;
+            text-align: center;
+        }
+        .menu-container nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+        .menu-container nav ul li {
+            margin: 0 15px;
+        }
+        .menu-container nav ul li a {
+            color: #ffd700;
+            text-decoration: none;
+            font-size: 1em; /* Reduced from 1.2em */
+            padding: 10px 15px;
+            border-radius: 5px;
+            transition: background 0.3s ease;
+        }
+        .menu-container nav ul li a:hover {
+            background: rgba(255, 215, 0, 0.3);
+            color: #1a1a2e;
+        }
+        .tours-content {
+            background: rgba(0, 0, 0, 0.6);
+            padding: 20px;
+            border-radius: 10px;
+            position: relative;
+            max-width: 800px;
+            margin: 20px auto;
+            text-align: center;
+        }
+        h1, h2 {
+            color: #ffd700;
+        }
+        .tour-destinations {
+            text-align: left;
+            margin-top: 20px;
+        }
+        .tour-destinations ul {
+            list-style: none;
+            padding: 0;
+        }
+        .tour-destinations ul li {
+            background: rgba(255, 215, 0, 0.3);
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 5px;
+            font-size: 1.1em;
+        }
+        .reserve-button {
+            background-color: #ffd700;
+            color: #1a1a2e;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1.2em;
+            margin-top: 20px;
+            display: inline-block;
+            animation: bounce 2s infinite;
+        }
+        .reserve-button:hover {
+            background-color: #cca700;
+        }
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% {
+                transform: translateY(0);
+            }
+            40% {
+                transform: translateY(-20px);
+            }
+            60% {
+                transform: translateY(-10px);
+            }
+        }
+        @media (max-width: 768px) {
+            .tours-content {
+                padding: 10px;
+            }
+            .reserve-button {
+                font-size: 1em;
+                padding: 8px 16px;
+            }
+        }
+        .social-icons {
+            margin-top: 20px;
+        }
+        .social-icons a {
+            color: #ffd700;
+            font-size: 1.5em;
+            margin: 0 10px;
+            transition: color 0.3s ease;
+        }
+        .social-icons a:hover {
+            color: #cca700;
+        }
+    </style>
+</head>
+<body>
+    <header class="header-container">
+        <img src="gallary/images/logo.png" alt="Iko-Kifaru Tour & Safaris Logo">
+        <div class="header-title">
+            <h1>Iko-Kifaru Tour & Safaris</h1>
+        </div>
+    </header>
+    <div class="menu-container">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="tours.html">Tours & Services</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </div>
+    <section class="tours-content">
+        <h1>Tours & Services</h1>
+        <p>Explore our wide range of tours and services designed to provide you with unforgettable experiences. From exhilarating safaris to luxurious beach holidays, we offer something for everyone.</p>
+        <div class="tour-destinations">
+            <h2>Tour Destinations</h2>
+            <ul>
+                <li>Maasai Mara National Park</li>
+                <li>Amboseli National Park</li>
+                <li>Aberdare National Park</li>
+                <li>Tsavo East & West National Park</li>
+                <li>Laikipia Plateau</li>
+                <li>Chyulu Hills National Park</li>
+                <li>Lake Baringo National Reserve</li>
+                <li>Lake Nakuru</li>
+                <li>Coastal: Mombasa, Diani & Malindi</li>
+            </ul>
+        </div>
+        <a href="contact.html" class="reserve-button">Reserve Now</a>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/profile.php?id=61562713145883&mibextid=ZbWKwL" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.tiktok.com/@ikokifarutourandsafaris?" target="_blank" title="TikTok"><i class="fab fa-tiktok"></i></a>
+        </div>
+    </section>
+</body>
+</html>
